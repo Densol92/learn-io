@@ -2,6 +2,7 @@ from enum import Enum, auto
 
 
 class Category(Enum):
+    unknown = auto()
     verb = auto()
     noun = auto()
     adjective = auto()
