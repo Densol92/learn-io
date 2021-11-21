@@ -12,3 +12,8 @@ class Category(Enum):
     preposition = auto()
     article = auto()
     participle = auto()
+
+
+class Language(Enum):
+    german = auto()
+    english = auto()
