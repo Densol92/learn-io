@@ -19,3 +19,12 @@
 **Link to work:** -
 
 **Plans:** Switch to something less painful 
+### Day 2: 22-11-2021
+
+**Today's Progress**: No progress with sqlalchemy, same with peewee. Almost give up. 
+
+**Thoughts:** Write some simple code to relax.  
+
+**Link to work:** https://stackoverflow.com/questions/3043770/many-to-many-relationship-on-same-table-with-association-object
+
+**Plans:** use solution from link above 
