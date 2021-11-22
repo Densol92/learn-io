@@ -1,5 +1,7 @@
 from sqlalchemy import Column, Integer, String, Enum, Sequence
+from sqlalchemy.orm import relationship
 
+from models.Translation import Translation
 from src import my_db
 from src.app.Category import Category, Language
 
@@ -13,3 +15,5 @@ class Word(my_db.Model):
     language = Column(Enum(Language), nullable=False)
     rank = Column(Integer)
     global_rank = Column(Integer)
+    translations = relationship(Translation, backref='words')
+
