@@ -1,14 +1,17 @@
 import random
 
+from models import translation, word
+
 
 def get_random_word():
     from src import my_db
-    from models.Word import Word
 
     from sqlalchemy import select
-    stmt = select(Word)
+
+    stmt = select([word, translation]).select_from(word.join(translation))
+
     with my_db.Session() as session:
-        x = [r for r in session.execute(stmt).scalars()]
+        x = [r for r in session.execute(stmt).fetchall()]
         return random.choice(x)
 
 # def link

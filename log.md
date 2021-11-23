@@ -19,7 +19,7 @@
 **Link to work:** -
 
 **Plans:** Switch to something less painful 
-### Day 2: 22-11-2021
+### Day 3: 22-11-2021
 
 **Today's Progress**: No progress with sqlalchemy, same with peewee. Almost give up. 
 
@@ -28,3 +28,13 @@
 **Link to work:** https://stackoverflow.com/questions/3043770/many-to-many-relationship-on-same-table-with-association-object
 
 **Plans:** use solution from link above 
+
+### Day 4: 23-11-2021
+
+**Today's Progress**: I've simplified ORM model, now it's bad, but at least it's working!. Also add some functionality to my app so it's usable now. I'm happy man 
+
+**Thoughts:** Never before did I use sql alchemy that way as template builder.  
+
+**Link to work:** - 
+
+**Plans:** One day i should switch back to modern models and m2m schema. Also need to add additional window for messages 
